@@ -10,7 +10,9 @@ Another localStorage wrapper provides easy-to-use API and focuses on safely IO w
 **arguments**
 
 key: {String} key
+
 val: {String|Object} value
+
 exp: [optional] an expired time relative to now
 
 **demo**
@@ -29,6 +31,7 @@ exp: [optional] an expired time relative to now
 **arguments**
 
 key: {String} key
+
 enableDes: {Boolean} [optional] whether to enable deseriablize the result item get from localStorage. If the result is an JSON string, then we recomend this param to be true;
 
 **demo**
@@ -71,7 +74,9 @@ if the item exists, then update it with special operation.
 **arguments**
 
 key: {String} key
+
 defaultVal: {String|Object} [optional] the default value
+
 transactionFn: {Function} the trasaction function
 
 **demo**
